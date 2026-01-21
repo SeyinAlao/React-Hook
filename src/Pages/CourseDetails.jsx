@@ -7,7 +7,7 @@ function CourseDetailsPage() {
   const [isEditing, setIsEditing] = useState(false)
 
   useEffect(() => {
-    fetch(`http://localhost:3001/courses/${id}`)
+    fetch(`https://backend-react-hook.onrender.com/courses/${id}`)
       .then(res => res.json())
       .then(data => setCourse(data))
   }, [id])
@@ -20,7 +20,7 @@ function CourseDetailsPage() {
   }
 
   const handleSave = () => {
-    fetch(`http://localhost:3001/courses/${id}`, {
+    fetch(`https://backend-react-hook.onrender.com/courses/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -105,19 +105,32 @@ function CourseDetailsPage() {
       </p>
 
       {/* Duration */}
-      <p className="mb-6">
-        <strong className="text-gray-700">Duration:</strong>{' '}
-        {isEditing ? (
-          <input
-            name="duration"
-            value={course.duration}
-            onChange={handleChange}
-            className="w-full mt-1 border rounded px-3 py-2"
-          />
-        ) : (
-          `${course.start_date} - ${course.end_date}`
-        )}
-      </p>
+      {/* Duration Editing Section */}
+<p className="mb-6">
+  <strong className="text-gray-700">Duration:</strong>{' '}
+  {isEditing ? (
+    <div className="flex gap-2 mt-1">
+      <input
+        type="text"
+        name="start_date" // Matches your DB field
+        value={course.start_date}
+        onChange={handleChange}
+        className="border rounded px-2 py-1 w-1/2"
+        placeholder="Start Date"
+      />
+      <input
+        type="text"
+        name="end_date" // Matches your DB field
+        value={course.end_date}
+        onChange={handleChange}
+        className="border rounded px-2 py-1 w-1/2"
+        placeholder="End Date"
+      />
+    </div>
+  ) : (
+    `${course.start_date} - ${course.end_date}`
+  )}
+</p>
 
       {/* Buttons */}
       <div className="flex gap-4">
