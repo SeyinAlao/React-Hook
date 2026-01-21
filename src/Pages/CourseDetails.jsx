@@ -44,7 +44,6 @@ function CourseDetailsPage() {
 
   return (
     <div className="max-w-3xl mx-auto mt-10 p-6 bg-white rounded-lg shadow">
-      {/* Course Name */}
       <h1 className="text-3xl font-bold mb-4">
         {isEditing ? (
           <input
@@ -58,7 +57,6 @@ function CourseDetailsPage() {
         )}
       </h1>
 
-      {/* Instructor */}
       <p className="mb-3">
         <strong className="text-gray-700">Instructor:</strong>{' '}
         {isEditing ? (
@@ -73,7 +71,6 @@ function CourseDetailsPage() {
         )}
       </p>
 
-      {/* Status */}
       <p className="mb-3">
         <strong className="text-gray-700">Status:</strong>{' '}
         {isEditing ? (
@@ -88,7 +85,6 @@ function CourseDetailsPage() {
         )}
       </p>
 
-      {/* Description */}
       <p className="mb-3">
         <strong className="text-gray-700">Description:</strong>{' '}
         {isEditing ? (
@@ -112,7 +108,7 @@ function CourseDetailsPage() {
     <div className="flex gap-2 mt-1">
       <input
         type="text"
-        name="start_date" // Matches your DB field
+        name="start_date" 
         value={course.start_date}
         onChange={handleChange}
         className="border rounded px-2 py-1 w-1/2"
@@ -120,7 +116,7 @@ function CourseDetailsPage() {
       />
       <input
         type="text"
-        name="end_date" // Matches your DB field
+        name="end_date"
         value={course.end_date}
         onChange={handleChange}
         className="border rounded px-2 py-1 w-1/2"
@@ -132,7 +128,6 @@ function CourseDetailsPage() {
   )}
 </p>
 
-      {/* Buttons */}
       <div className="flex gap-4">
         <Link to="/">
           <button className="px-4 py-2 border rounded hover:bg-gray-100">
