@@ -1,0 +1,264 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Introduction to Biology",
+      "description": "Fundamental concepts of biology including cellular structure, genetics, and evolution.\n",
+      "instructor": "Dr. Sarah Johnson",
+      "start_date": "2024-09-01",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Lecture Slides"
+      ],
+      "end_date": "2024-12-15"
+    },
+    {
+      "id": "2",
+      "name": "Chemistry Foundations",
+      "description": "Basic principles of chemistry covering atomic structure, chemical bonding, and reactions.",
+      "instructor": "Prof. Michael Smith",
+      "start_date": "2024-08-15",
+      "enrollment_status": "closed",
+      "materials": [
+        "Lab Manual",
+        "Video Tutorials"
+      ],
+      "end_date": "2024-11-30"
+    },
+    {
+      "id": "3",
+      "name": "Physics for Engineers",
+      "description": "Mechanics, thermodynamics, and electromagnetism with engineering applications.",
+      "instructor": "Dr. David Brown",
+      "start_date": "2024-08-20",
+      "enrollment_status": "closed",
+      "materials": [
+        "Course Notes",
+        "Assignments"
+      ],
+      "end_date": "2024-12-10"
+    },
+    {
+      "id": "4",
+      "name": "Introduction to Neuroscience",
+      "description": "An overview of the nervous system, including structure, function, and disorders.",
+      "instructor": "Prof. Emily White",
+      "start_date": "2024-09-10",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Online Resources"
+      ],
+      "end_date": "2024-12-20"
+    },
+    {
+      "id": "5",
+      "name": "Organic Chemistry",
+      "description": "Study of carbon compounds including structure, bonding, and reactions.",
+      "instructor": "Dr. Christopher Lee",
+      "start_date": "2024-08-25",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Lecture Slides"
+      ],
+      "end_date": "2024-12-05"
+    },
+    {
+      "id": "6",
+      "name": "Mathematics for Scientists",
+      "description": "Mathematical techniques and methods applied in scientific research and analysis.",
+      "instructor": "Prof. Rachel Adams",
+      "start_date": "2024-09-05",
+      "enrollment_status": "closed",
+      "materials": [
+        "Lab Manual",
+        "Video Tutorials"
+      ],
+      "end_date": "2024-12-18"
+    },
+    {
+      "id": "7",
+      "name": "Environmental Science",
+      "description": "Interdisciplinary study of environmental systems, ecology, and sustainability.",
+      "instructor": "Dr. Daniel Martinez",
+      "start_date": "2024-08-30",
+      "enrollment_status": "closed",
+      "materials": [
+        "Lab Manual",
+        "Online Tutorials"
+      ],
+      "end_date": "2024-12-15"
+    },
+    {
+      "id": "8",
+      "name": "Cell Biology",
+      "description": "Detailed study of cellular structure, function, and processes.",
+      "instructor": "Prof. Jessica Anderson",
+      "start_date": "2024-09-02",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Udemy Courses"
+      ],
+      "end_date": "2024-12-17"
+    },
+    {
+      "id": "9",
+      "name": "Introduction to Astronomy",
+      "description": "Exploration of the universe, celestial objects, and astronomical phenomena.",
+      "instructor": "Dr. William Taylor",
+      "start_date": "2024-08-28",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Online Lectures"
+      ],
+      "end_date": "2024-12-10"
+    },
+    {
+      "id": "10",
+      "name": "Biochemistry",
+      "description": "Chemical processes and substances occurring within living organisms.",
+      "instructor": "Prof. Jennifer Scott",
+      "start_date": "2024-08-22",
+      "enrollment_status": "closed",
+      "materials": [
+        "Course Notes",
+        "Assignments"
+      ],
+      "end_date": "2024-12-05"
+    },
+    {
+      "id": "11",
+      "name": "Genetics and Molecular Biology",
+      "description": "Study of genes, genetic variation, and molecular mechanisms of inheritance.",
+      "instructor": "Dr. Thomas Wilson",
+      "start_date": "2024-09-03",
+      "enrollment_status": "open",
+      "materials": [
+        "Research Papers",
+        "External Projects"
+      ],
+      "end_date": "2024-12-19"
+    },
+    {
+      "id": "12",
+      "name": "Geology and Earth Sciences",
+      "description": "Formation, composition, and processes of the Earth's structure and surface.",
+      "instructor": "Prof. Laura Turner",
+      "start_date": "2024-09-01",
+      "enrollment_status": "open",
+      "materials": [
+        "Lecture Slides",
+        "Video Tutorials"
+      ],
+      "end_date": "2024-12-16"
+    },
+    {
+      "id": "13",
+      "name": "Ecology and Ecosystems",
+      "description": "Interactions between organisms and their environment, including population dynamics.",
+      "instructor": "Dr. Mark Davis",
+      "start_date": "2024-08-27",
+      "enrollment_status": "closed",
+      "materials": [
+        "Lab Manual",
+        "Video Tutorials"
+      ],
+      "end_date": "2024-12-10"
+    },
+    {
+      "id": "14",
+      "name": "Physical Chemistry",
+      "description": "Study of chemical systems and processes using principles of physics.",
+      "instructor": "Prof. Karen Lewis",
+      "start_date": "2024-08-24",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Lecture Slides"
+      ],
+      "end_date": "2024-12-07"
+    },
+    {
+      "id": "15",
+      "name": "Biostatistics",
+      "description": "Statistical methods applied to biological and medical research.",
+      "instructor": "Dr. Jason Clark",
+      "start_date": "2024-09-05",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Online Lectures"
+      ],
+      "end_date": "2024-12-20"
+    },
+    {
+      "id": "16",
+      "name": "Introduction to Bioinformatics",
+      "description": "Application of computational methods in biological research and analysis.",
+      "instructor": "Prof. Sarah Brown",
+      "start_date": "2024-09-08",
+      "enrollment_status": "open",
+      "materials": [
+        "Research Papers",
+        "External Projects"
+      ],
+      "end_date": "2024-12-23"
+    },
+    {
+      "id": "17",
+      "name": "Botany and Plant Biology",
+      "description": "Study of plants, their structure, physiology, and ecological relationships.",
+      "instructor": "Dr. Kevin Adams",
+      "start_date": "2024-09-02",
+      "enrollment_status": "closed",
+      "materials": [
+        "Course Notes",
+        "Assignments"
+      ],
+      "end_date": "2024-12-18"
+    },
+    {
+      "id": "18",
+      "name": "Microbiology",
+      "description": "Microorganisms, their diversity, structure, function, and impact on the environment and human health.",
+      "instructor": "Prof. Linda Garcia",
+      "start_date": "2024-08-26",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Online Lectures"
+      ],
+      "end_date": "2024-12-11"
+    },
+    {
+      "id": "19",
+      "name": "Chemical Engineering Fundamentals",
+      "description": "Principles and applications of chemical engineering in various industries.",
+      "instructor": "Dr. Robert Johnson",
+      "start_date": "2024-08-29",
+      "enrollment_status": "open",
+      "materials": [
+        "Textbook",
+        "Online Resources"
+      ],
+      "end_date": "2024-12-12"
+    },
+    {
+      "id": "20",
+      "name": "Neurobiology",
+      "description": "Study of the nervous system, including structure, function, and neurological disorders.",
+      "instructor": "Prof. Amanda Roberts",
+      "start_date": "2024-09-07",
+      "enrollment_status": "closed",
+      "materials": [
+        "Textbook",
+        "Lecture Slides"
+      ],
+      "end_date": "2024-12-22"
+    }
+  ]
+}
